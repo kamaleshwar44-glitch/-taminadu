@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>using css style sheet</title>
+<style type=text/css>
+h1{
+background:gold;
+color:darkred;
+text-transform:uppercase;
+border:10px double red;
+text-shadow;-4px 4px 0px magenta;
+font-size:400%;
+text-align:center;
+}
+td{
+color:blue;
+background:white;
+text-align:center;
+font-size:20pt;
+font-family:Lucia Handwriting,Arial Black;
+font-weight:bold;
+}
+td:hover,a:hover{
+color:white;
+background:blue;
+text-transform: uppercase:
+}
+a{text-decoration:none:}
+#address{
+border:10px solid red;
+padding:20px 40px;
+border-radius:50px
+background:gold;
+width:300px;
+text-align:center;
+font-weight:bold;
+fonr-size:16pt;
+}
+
+email{
+font:italic bold 22px/30px Georgia,serif;
+color:darkgreen;
+}
+
+div{
+padding:10px;
+border:5px solid navy;
+border-radius:50px
+color:white;
+background:URL('flow11.jpg'):
+font-size:16pt:
+display:none;
+}
+</style>
+<script>
+function show(){
+document.getElementById('phone').style.display='block';
+}
+function hide(){
+document.getElementById('phone').style.display='none';
+}
+</script>
+</head>
+<body style="background-image:URL('rice.jpg');">
+<center>
+<h1>Panimalar Engineering College</h1>
+<p id="address">
+jaishakthi educational trust</br>
+banglore trunk road</br>
+nazarthpet.poonamllee</br>
+chennai-600123
+</p>
+<table border=2 cellpadding=10 cellspacing 10 width=50%>
+<tr>
+<td><a href="courses.html">course offered</a></td>
+</tr>
+<tr>
+<td onmouseover="show()" onmouseout="hide()">contact us</td>
+</tr>
+</table>
+<br/>
+<br/>
+<div id="phone">
+phone:044-485748437438<br/>
+E-mail:<span class="email">info@panimalar.ac.in</span>
+</div>
+</body>
+</html>
